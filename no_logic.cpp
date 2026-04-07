@@ -11,4 +11,18 @@ int main()
     cout << "Masukkan nilai Bahasa Inggris = ";
     cin >> nilB;
 
+    rerata = (nilM + nilB) / 2;
+
+    if (rerata >= 60)//not logic start with "!" sign
+
+        status = "LULUS";
+
+    else
+
+        status = "TIDAK LULUS";
+    
+    cout << "Status Kelulusan = " << status << ",
+    dengan nilai rata-rata = " << rerata << endl;
+
+
 }
