@@ -36,4 +36,12 @@ void pilihJurusan()
         statusKuota = "Error : Kode Jurusan Tidak Valid ";
         break;
     }
+
+    void output()
+    {
+        cout << "\n=== HASIL SELEKSI ===" << endl;
+        cout << "Jurusan yang dipilih = " << namaJurusan << endl;
+        cout << "Status Kuota = " << statusKuota << endl;
+        cout << "======================" << endl;
+    }
 }
