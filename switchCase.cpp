@@ -32,5 +32,8 @@ void pilihJurusan()
         statusKuota = "Tersedia (5 Kursi)";
         break;
     default:
+        namaJurusan = "Tidak Diketahui";
+        statusKuota = "Error : Kode Jurusan Tidak Valid ";
+        break;
     }
 }
