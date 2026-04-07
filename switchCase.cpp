@@ -14,3 +14,18 @@ void input()
     cout << "Masukkan kode jurusan (1-3) = ";
     cin >> KodeJurusan;
 }
+
+void pilihJurusan()
+{
+    switch (KodeJurusan)
+    {
+    case 1:
+        namaJurusan = "Teknik Informatika";
+        statusKuota = "Tersedia (15 Kursi)";
+        break;
+    case 2:
+        namaJurusan = "Teknik Elektro";
+        statusKuota = "KuotaPenuh";
+        break;
+    }
+}
