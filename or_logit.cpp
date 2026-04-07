@@ -14,11 +14,8 @@ int main()
         rerata = (nilM + nilB) / 2;
 
     if (rerata < 60 || nilM >= 70)// put the "//"
-
         status = "LULUS";
-
     else
-
         status = "TIDAK LULUS";
     
     cout << "Status Kelulusan = " << status << ",
