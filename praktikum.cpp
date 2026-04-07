@@ -14,4 +14,15 @@ int main()
         cout << "Teknologi informasi UMY" << endl;
     }
     cout << endl;
+
+    srand(time(0));
+
+    //perulangan dengan while
+    cout << "PERULANGAN WHILE" << endl;
+    x = 1 + rand() % 10;
+    while (x != 5)
+    {
+        cout << "Nilai x: " << x << endl;
+        x = 1 + rand() % 10;
+    }
 }
