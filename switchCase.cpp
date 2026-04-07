@@ -25,7 +25,12 @@ void pilihJurusan()
         break;
     case 2:
         namaJurusan = "Teknik Elektro";
-        statusKuota = "KuotaPenuh";
+        statusKuota = "Kuota Penuh !";
         break;
+    case 3:
+        namaJurusan = "Sistem Informasi";
+        statusKuota = "Tersedia (5 Kursi)";
+        break;
+    default:
     }
 }
