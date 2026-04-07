@@ -10,4 +10,18 @@ int main()
     cin >> nilM;
     cout << "Masukkan nilai Bahasa Inggris = ";
     cin >> nilB;
+
+    rerata = (nilM + nilB) / 2;
+
+    if ((rerata > 60) && (nilM > 70))// put The "&&" sign
+
+        status = "LULUS";
+
+    else
+
+        status = "TIDAK LULUS";
+    
+    cout << "Status Kelulusan = " << status << ",
+    dengan nilai rata-rata = " << rerata << endl;
+    
 }
